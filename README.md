@@ -1,5 +1,5 @@
 # jquantum
-we build java library collection for quantum physics and chemistry calculation and design it for running with python on Jupyter notebook or google colabs. At this moment we focus on HF and DFT method to calculate electronics properti material.
+we build java library collection for quantum physics and chemistry calculation and design it for running with python on Jupyter notebook or google colabs. At this moment we focus on HF and DFT method to calculate electronics properties of material.
 
 ## How To Use
 
