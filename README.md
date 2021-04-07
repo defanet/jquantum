@@ -8,14 +8,12 @@ this library is cross platform as long as java 8 installed in your device, if yo
 !apt-get install -y openjdk-8-jdk-headless -qq > /dev/null      #install openjdk
 os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"     #set environment variable
 
+then install other dependencies so your python can call java object
 ##### install maven
 !sudo apt-get install maven
-
 ##### install imglyb
 !pip install imglyb==0.3.5
-
 ##### install pyimagej
 !pip install pyimagej
-
 ##### install pyjnius (python library to access java classes)
 !wget https://anaconda.org/conda-forge/pyjnius/1.2.0/download/linux-64/pyjnius-1.2.0-py36hc2cfd8d_0.tar.bz2 && tar -xjf pyjnius-1.2.0-py36hc2cfd8d_0.tar.bz2 -C /usr/local
