@@ -5,8 +5,8 @@ we build java library collection for quantum physics and chemistry calculation a
 
 this library is cross platform as long as java 8 installed in your device, if you haven't install it first
 ##### install openjdk for java and set ENV variable
-!apt-get install -y openjdk-8-jdk-headless -qq > /dev/null      #install openjdk
-os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"     #set environment variable
+!apt-get install -y openjdk-8-jdk-headless -qq > /dev/null        
+os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"     
 
 then install other dependencies so your python can call java object
 ##### install maven
